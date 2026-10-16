@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://apple.com">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.cellular</string>
+            <key>PayloadIdentifier</key>
+            <string>com.test.verizon.cellular</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-7A8B-9C0D-1E2F3A4B5C6D</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>EnableXLAT464</key>
+            <false/>
+            <key>APNs</key>
+            <array>
+                <dict>
+                    <key>Name</key>
+                    <string>vzwinternet</string>
+                    <key>AllowedOverrideDataClasses</key>
+                    <array>
+                        <string>LTE</string>
+                        <string>NR</string>
+                        <string>NRNSA</string>
+                    </array>
+                </dict>
+            </array>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Verizon 5G UW Optimizer Test</string>
+    <key>PayloadIdentifier</key>
+    <string>com.test.profile.root</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>F0E9D8C7-B6A5-4F3E-2D1C-0B9A8F7E6D5C</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
